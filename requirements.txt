@@ -13,11 +13,17 @@ tqdm>=4.65.0
 biopython>=1.81
 
 # Data storage and compression
-pyarrow>=14.0.1  # For parquet file support
+pyarrow>=14.0.1
 
 # File handling and compression
-requests>=2.31.0  # For downloading files
-#ftplib3>=0.2.1   # For FTP operations
+requests>=2.31.0
 
 # Optional but recommended for improved performance
-multiprocess>=0.70.15  # For better multiprocessing support
+multiprocess>=0.70.15
+
+# HuggingFace dataset download
+datasets>=2.19.0
+
+# Notebooks
+jupyter>=1.0.0
+ipykernel>=6.0.0
